@@ -17,7 +17,7 @@ Statsense is a Chrome extension designed for Twitch viewers who enjoy participat
 
 ## 🌐 Website
 
-Visit our official website at [statsense.github.io](https://stats-sense.github.io/statsense/) to learn more about the extension, see screenshots, and get installation instructions.
+Visit our official website at [https://mrv1ctor.github.io/statsense/](https://mrv1ctor.github.io/statsense/) to learn more about the extension, see screenshots, and get installation instructions.
 
 The website is built with:
 - React + Vite for blazing fast performance

@@ -5,6 +5,10 @@ import { Download, Chrome, Star, Users, Shield, Zap, Clock, Heart, Lock } from '
 const Installation = () => {
   const [isHovered, setIsHovered] = useState(false)
 
+  const openChromeStore = () => {
+    window.open('https://chromewebstore.google.com/search/statsense', '_blank')
+  }
+
   const steps = [
     {
       number: "01",
@@ -75,6 +79,7 @@ const Installation = () => {
 
           {/* Main CTA Button */}
           <motion.button
+            onClick={openChromeStore}
             className="btn-primary text-white font-bold px-12 py-6 rounded-2xl text-xl inline-flex items-center gap-4 mb-8 relative overflow-hidden"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

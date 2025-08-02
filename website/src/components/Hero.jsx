@@ -18,6 +18,10 @@ const Hero = () => {
     }
   }
 
+  const openChromeStore = () => {
+    window.open('https://chromewebstore.google.com/search/statsense', '_blank')
+  }
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center px-6 pt-32 pb-20 z-10 overflow-hidden">
       <div className="max-w-5xl mx-auto text-center">
@@ -59,7 +63,7 @@ const Hero = () => {
           </h2>
         </motion.div>
 
-        {/* CTA Buttons - Now first */}
+        {/* CTA Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -67,7 +71,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-6 justify-center mb-32"
         >
           <button 
-            onClick={scrollToInstall}
+            onClick={openChromeStore}
             className="btn-primary text-white font-semibold px-10 py-5 rounded-2xl text-xl shadow-2xl hover:shadow-primary-500/25 transition-all duration-300"
           >
             Add to Chrome

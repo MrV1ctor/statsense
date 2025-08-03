@@ -1,10 +1,10 @@
-# Statsense
+# StatSense
 
 **Prediction stats for Twitch** - A Chrome extension that enhances your Twitch prediction experience with real-time analytics and beautiful visualizations.
 
-## 📊 What is Statsense?
+## 📊 What is StatSense?
 
-Statsense is a Chrome extension designed for Twitch viewers who enjoy participating in channel point predictions. It enhances the native Twitch prediction experience by displaying real-time historical data, including win/loss history and graphical data of your channel points - all directly integrated into the Twitch UI.
+StatSense is a Chrome extension designed for Twitch viewers who enjoy participating in channel point predictions. It enhances the native Twitch prediction experience by displaying real-time historical data, including win/loss history and graphical data of your channel points - all directly integrated into the Twitch UI.
 
 ## ✨ Key Features
 
@@ -17,7 +17,7 @@ Statsense is a Chrome extension designed for Twitch viewers who enjoy participat
 
 ## 🌐 Website
 
-Visit our official website at [https://mrv1ctor.github.io/statsense/](https://mrv1ctor.github.io/statsense/) to learn more about the extension, see screenshots, and get installation instructions.
+Visit our official website at [statsense.app](https://statsense.app/) to learn more about the extension, see screenshots, and get installation instructions.
 
 The website is built with:
 - React + Vite for blazing fast performance
@@ -62,7 +62,7 @@ npm run dev
 
 ## 🎨 Design Philosophy
 
-Statsense follows a dark theme design language with purple accents that complements Twitch's interface for compatibility:
+StatSense follows a dark theme design language with purple accents that complements Twitch's interface for compatibility:
 
 - **Primary Colors**: Purple gradients (#843dff to #7916ff)
 - **Background**: Dark theme variants

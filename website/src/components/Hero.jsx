@@ -37,7 +37,7 @@ const Hero = () => {
             onClick={scrollToInstall}
           >
             <div className="w-24 h-24 bg-gradient-to-br from-primary-400 to-primary-600 rounded-3xl flex items-center justify-center shadow-2xl animate-glow group-hover:scale-105 transition-transform duration-300">
-              <img src={logoSvg} alt="Statsense Logo" className="w-14 h-14" />
+              <img src={logoSvg} alt="StatSense Logo" className="w-14 h-14" />
             </div>
             <div className="absolute -top-3 -right-3 w-8 h-8 bg-green-500 rounded-full animate-pulse shadow-lg group-hover:scale-110 transition-transform duration-300"></div>
           </div>
@@ -51,7 +51,7 @@ const Hero = () => {
           className="flex flex-col justify-between h-80 mb-20"
         >
           <h1 className="text-7xl md:text-9xl font-black tracking-tight">
-            <span className="gradient-text">Statsense</span>
+            <span className="gradient-text">StatSense</span>
           </h1>
           <p className="text-2xl md:text-3xl text-gray-300 font-light">
             Channel point stats for Twitch

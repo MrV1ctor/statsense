@@ -61,7 +61,7 @@ const Screenshots = ({ onImageClick }) => {
             See it in <span className="gradient-text">Action</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Experience the power of Statsense with real screenshots from the extension
+            Experience the power of StatSense with real screenshots from the extension
           </p>
         </motion.div>
 

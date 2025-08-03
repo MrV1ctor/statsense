@@ -1,6 +1,6 @@
-# Statsense Website
+# StatSense Website
 
-This is the official website for Statsense, a Chrome extension for Twitch prediction analytics.
+This is the official website for StatSense, a Chrome extension for Twitch prediction analytics.
 
 ## 🌟 Features
 
@@ -118,7 +118,7 @@ Configured with Tailwind CSS and Autoprefixer.
 
 ## 📝 License
 
-This project is part of the Statsense Chrome extension ecosystem.
+This project is part of the StatSense Chrome extension ecosystem.
 
 ## 🤝 Contributing
 

@@ -135,7 +135,7 @@ const Features = ({ onImageClick }) => {
                   See the <span className="gradient-text">difference</span>
                 </h3>
                 <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                  Statsense transforms your Twitch prediction experience with comprehensive 
+                  StatSense transforms your Twitch prediction experience with comprehensive 
                   statistics and beautiful visualizations that help you track your performance.
                 </p>
                 <div className="space-y-4">
@@ -161,11 +161,11 @@ const Features = ({ onImageClick }) => {
                 </div>
                 
                 {/* Feature showcase image */}
-                <div className="relative group cursor-pointer" onClick={() => onImageClick(Screenshot1, 'Statsense Dashboard - jynxzi')}>
+                <div className="relative group cursor-pointer" onClick={() => onImageClick(Screenshot1, 'StatSense Dashboard - jynxzi')}>
                   <div className="aspect-video bg-gradient-to-br from-dark-800 to-dark-900 rounded-2xl flex items-center justify-center overflow-hidden shadow-2xl">
                     <img 
                       src={Screenshot1} 
-                      alt="Statsense Dashboard"
+                      alt="StatSense Dashboard"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>

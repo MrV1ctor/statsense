@@ -38,23 +38,23 @@ const Footer = () => {
       content: (
         <div className="space-y-6">
           <div className="text-center mb-6">
-            <h2 className="text-2xl font-bold text-white mb-2">Statsense Privacy Policy</h2>
+            <h2 className="text-2xl font-bold text-white mb-2">StatSense Privacy Policy</h2>
             <p className="text-gray-400 text-sm">Effective Date: August 1st, 2025</p>
           </div>
           
           <p className="text-gray-300 leading-relaxed">
-            Statsense ("we," "us," or "our") is committed to respecting your privacy. This Privacy Policy describes what data we collect, how it is stored, and your control over it when using the Statsense browser extension ("the Extension").
+            StatSense ("we," "us," or "our") is committed to respecting your privacy. This Privacy Policy describes what data we collect, how it is stored, and your control over it when using the StatSense browser extension ("the Extension").
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            By installing or using Statsense, you acknowledge and agree to the practices described in this policy.
+            By installing or using StatSense, you acknowledge and agree to the practices described in this policy.
           </p>
 
           <div className="space-y-4">
             <div>
               <h3 className="text-lg font-bold text-white mb-2">1. Information We Collect</h3>
               <p className="text-gray-300 leading-relaxed mb-3">
-                <span className="font-semibold text-primary-400">Statsense does not collect or transmit any personal information to us or any third parties.</span> The only data handled by the extension is stored locally on your device and is never uploaded or shared externally.
+                <span className="font-semibold text-primary-400">StatSense does not collect or transmit any personal information to us or any third parties.</span> The only data handled by the extension is stored locally on your device and is never uploaded or shared externally.
               </p>
               
               <div className="bg-dark-800/50 p-4 rounded-lg border border-gray-700/50">
@@ -75,7 +75,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">2. What We Do Not Collect</h3>
               <p className="text-gray-300 leading-relaxed mb-2">
-                Statsense does not collect, access, or store any of the following:
+                StatSense does not collect, access, or store any of the following:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-300 ml-4">
                 <li>Your Twitch username, email, or credentials</li>
@@ -114,7 +114,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">5. Children's Privacy</h3>
               <p className="text-gray-300 leading-relaxed">
-                Statsense is not intended for users under the age of 13. We do not knowingly collect any information from children. If you believe a child has used the extension and inadvertently provided personal data, please contact us immediately.
+                StatSense is not intended for users under the age of 13. We do not knowingly collect any information from children. If you believe a child has used the extension and inadvertently provided personal data, please contact us immediately.
               </p>
             </div>
 
@@ -151,19 +151,19 @@ const Footer = () => {
       content: (
         <div className="space-y-6">
           <div className="text-center mb-6">
-            <h2 className="text-2xl font-bold text-white mb-2">Statsense Terms of Service</h2>
+            <h2 className="text-2xl font-bold text-white mb-2">StatSense Terms of Service</h2>
             <p className="text-gray-400 text-sm">Effective Date: August 1st, 2025</p>
           </div>
           
           <p className="text-gray-300 leading-relaxed">
-            Welcome to Statsense, a browser extension designed to provide statistical insights and enhancements for Twitch.tv prediction systems. By installing or using this extension, you agree to the following Terms of Service ("Terms"). If you do not agree, please do not use the extension.
+            Welcome to StatSense, a browser extension designed to provide statistical insights and enhancements for Twitch.tv prediction systems. By installing or using this extension, you agree to the following Terms of Service ("Terms"). If you do not agree, please do not use the extension.
           </p>
 
           <div className="space-y-4">
             <div>
               <h3 className="text-lg font-bold text-white mb-2">1. Acceptance of Terms</h3>
               <p className="text-gray-300 leading-relaxed">
-                By installing, accessing, or using Statsense (the "Extension"), you agree to be bound by these Terms. If you are using the Extension on behalf of an organization, you represent that you are authorized to accept these Terms on its behalf.
+                By installing, accessing, or using StatSense (the "Extension"), you agree to be bound by these Terms. If you are using the Extension on behalf of an organization, you represent that you are authorized to accept these Terms on its behalf.
               </p>
             </div>
 
@@ -171,10 +171,10 @@ const Footer = () => {
               <h3 className="text-lg font-bold text-white mb-2">2. Description of Service</h3>
               <div className="space-y-2">
                 <p className="text-gray-300 leading-relaxed">
-                  Statsense is a free browser extension that provides statistical tools and visual enhancements related to Twitch.tv's prediction system. It is intended solely for informational and entertainment purposes.
+                  StatSense is a free browser extension that provides statistical tools and visual enhancements related to Twitch.tv's prediction system. It is intended solely for informational and entertainment purposes.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  <span className="font-semibold text-primary-400">Statsense is not affiliated with, endorsed by, or associated with Twitch Interactive, Inc.</span> Any references to Twitch are for compatibility and descriptive purposes only.
+                  <span className="font-semibold text-primary-400">StatSense is not affiliated with, endorsed by, or associated with Twitch Interactive, Inc.</span> Any references to Twitch are for compatibility and descriptive purposes only.
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">3. User Responsibilities</h3>
               <p className="text-gray-300 leading-relaxed mb-2">
-                You agree to use Statsense in compliance with all applicable laws and regulations. You must not:
+                You agree to use StatSense in compliance with all applicable laws and regulations. You must not:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-300 ml-4">
                 <li>Use the extension to gain unfair advantage in ways that violate Twitch's Terms of Service.</li>
@@ -196,7 +196,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">4. Disclaimer of Warranties</h3>
               <p className="text-gray-300 leading-relaxed mb-2">
-                Statsense is provided <span className="font-semibold">"as is"</span> and <span className="font-semibold">"as available,"</span> without warranties of any kind, either express or implied. We do not guarantee:
+                StatSense is provided <span className="font-semibold">"as is"</span> and <span className="font-semibold">"as available,"</span> without warranties of any kind, either express or implied. We do not guarantee:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-300 ml-4">
                 <li>Accuracy or reliability of statistical predictions.</li>
@@ -211,7 +211,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">5. Limitation of Liability</h3>
               <p className="text-gray-300 leading-relaxed mb-2">
-                To the maximum extent permitted by law, Statsense and its creator(s) shall not be liable for any damages, losses, or issues arising from your use of the extension, including but not limited to:
+                To the maximum extent permitted by law, StatSense and its creator(s) shall not be liable for any damages, losses, or issues arising from your use of the extension, including but not limited to:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-300 ml-4">
                 <li>Loss of Twitch channel points or virtual currency.</li>
@@ -223,7 +223,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">6. Intellectual Property</h3>
               <p className="text-gray-300 leading-relaxed">
-                All logos, names, and materials used in the extension are the property of their respective owners. <span className="font-semibold text-primary-400">"Statsense"</span> and its design are the intellectual property of the developer and may not be reused without permission.
+                All logos, names, and materials used in the extension are the property of their respective owners. <span className="font-semibold text-primary-400">"StatSense"</span> and its design are the intellectual property of the developer and may not be reused without permission.
               </p>
             </div>
 
@@ -237,7 +237,7 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-2">8. Termination</h3>
               <p className="text-gray-300 leading-relaxed">
-                We reserve the right to suspend or terminate access to Statsense for any reason, including violations of these Terms or misuse of the extension.
+                We reserve the right to suspend or terminate access to StatSense for any reason, including violations of these Terms or misuse of the extension.
               </p>
             </div>
 
@@ -276,9 +276,9 @@ const Footer = () => {
               {/* Logo */}
               <div className="flex items-center justify-center gap-3 mb-6">
                 <div className="w-10 h-10 bg-gradient-to-br from-primary-400 to-primary-600 rounded-xl flex items-center justify-center">
-                  <img src={logoSvg} alt="Statsense Logo" className="w-6 h-6" />
+                  <img src={logoSvg} alt="StatSense Logo" className="w-6 h-6" />
                 </div>
-                <span className="text-2xl font-bold gradient-text">Statsense</span>
+                <span className="text-2xl font-bold gradient-text">StatSense</span>
               </div>
               
               <p className="text-gray-300 text-sm leading-relaxed mb-6 max-w-md">
@@ -315,7 +315,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="flex flex-col items-center md:items-start gap-2"
               >
-                <span className="text-gray-400 text-sm">© {currentYear} Statsense.</span>
+                <span className="text-gray-400 text-sm">© {currentYear} StatSense.</span>
                 <div className="flex items-center gap-2 text-gray-400 text-sm">
                   <span>Made with</span>
                   <Heart className="w-4 h-4 text-red-400 fill-current" />

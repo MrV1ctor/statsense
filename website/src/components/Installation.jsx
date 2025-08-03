@@ -73,7 +73,7 @@ const Installation = () => {
               Ready to level up your predictions?
             </h3>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Be among the first to experience next-generation Twitch prediction tracking with Statsense
+              Be among the first to experience next-generation Twitch prediction tracking with StatSense
             </p>
           </div>
 
@@ -175,7 +175,7 @@ const Installation = () => {
             },
             {
               title: "Always Free",
-              description: "Statsense is completely free with no hidden costs or premium features.",
+              description: "StatSense is completely free with no hidden costs or premium features.",
               icon: Heart
             },
             {

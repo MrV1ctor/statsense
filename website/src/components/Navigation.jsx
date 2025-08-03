@@ -82,9 +82,9 @@ const Navigation = () => {
               whileTap={{ scale: 0.95 }}
             >
               <div className="w-8 h-8 bg-gradient-to-br from-primary-400 to-primary-600 rounded-lg flex items-center justify-center">
-                <img src={logoSvg} alt="Statsense Logo" className="w-5 h-5" />
+                <img src={logoSvg} alt="StatSense Logo" className="w-5 h-5" />
               </div>
-              <span className="text-xl font-bold gradient-text">Statsense</span>
+              <span className="text-xl font-bold gradient-text">StatSense</span>
             </motion.div>
 
             {/* Desktop Navigation */}

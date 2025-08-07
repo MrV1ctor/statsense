@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 import Navigation from './components/Navigation'
@@ -17,6 +17,25 @@ function App() {
     images: null, 
     currentIndex: 0 
   })
+
+  // Check for hash on load to auto-open modals
+  useEffect(() => {
+    const hash = window.location.hash.slice(1)
+    if (hash === 'privacy' || hash === 'terms') {
+      // Scroll to footer and trigger modal
+      setTimeout(() => {
+        const footer = document.querySelector('footer')
+        if (footer) {
+          footer.scrollIntoView({ behavior: 'smooth' })
+        }
+        // Trigger the appropriate modal
+        const button = document.querySelector(`[data-modal="${hash}"]`)
+        if (button) {
+          button.click()
+        }
+      }, 100)
+    }
+  }, [])
 
   const openImageModal = (image, title, images = null, currentIndex = 0) => {
     setImageModal({ isOpen: true, image, title, images, currentIndex })

@@ -333,12 +333,14 @@ const Footer = () => {
               >
                 <button 
                   onClick={() => openModal('privacy')}
+                  data-modal="privacy"
                   className="px-3 py-2 rounded-lg hover:text-primary-400 hover:bg-white/5 transition-all duration-200 cursor-pointer"
                 >
                   Privacy Policy
                 </button>
                 <button 
                   onClick={() => openModal('terms')}
+                  data-modal="terms"
                   className="px-3 py-2 rounded-lg hover:text-primary-400 hover:bg-white/5 transition-all duration-200 cursor-pointer"
                 >
                   Terms of Service

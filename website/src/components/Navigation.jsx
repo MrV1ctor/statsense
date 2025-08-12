@@ -58,7 +58,7 @@ const Navigation = () => {
   }
 
   const openChromeStore = () => {
-    window.open('https://chromewebstore.google.com/search/statsense', '_blank')
+    window.open('https://chromewebstore.google.com/detail/pghjimnfhmmldnpecchfanonakppkjcc?utm_source=item-share-cb', '_blank')
   }
 
   return (

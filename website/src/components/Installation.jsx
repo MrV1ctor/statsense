@@ -34,7 +34,7 @@ const Installation = () => {
     // { icon: Users, value: "10,000+", label: "Active Users" },
     // { icon: Star, value: "4.9/5", label: "Rating" },
     { icon: Shield, value: "100%", label: "Safe & Secure" },
-    { icon: Zap, value: "< 1MB", label: "Lightweight" },
+    { icon: Zap, value: "< 0.1MB", label: "Lightweight" },
     { icon: Chrome, value: "Chrome", label: "Extension" }
   ]
 

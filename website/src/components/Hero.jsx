@@ -109,18 +109,18 @@ const Hero = () => {
         </motion.div>
 
         {/* Minimal Stats */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto mb-32"
+          className="grid grid-cols-2 md:grid-cols-2 gap-8 max-w-2xl mx-auto mb-32"
         >
           {[
             // { value: "10K+", label: "Users" },
             // { value: "4.9★", label: "Rating" },
             { value: "100%", label: "Local Data" },
-            { value: "0", label: "Permissions" },
-            { value: "0ms", label: "Latency" },
+            // { value: "Auto", label: "Updates" },
+            // { value: "0ms", label: "Latency" },
             { value: "24/7", label: "Available" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
@@ -130,7 +130,7 @@ const Hero = () => {
               <div className="text-gray-400 text-xs uppercase tracking-wider">{stat.label}</div>
             </div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Enhanced Floating elements */}
